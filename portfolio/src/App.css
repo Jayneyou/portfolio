@@ -1,3 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 75px;
+}
+
+body {
+  font-weight: 400;
+  overflow-x: hidden;
+  position: relative;
+  background-color: azure !important;
+  color: darkgray;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+  line-height: normal;
+}
+
 .App {
   text-align: center;
 }
@@ -32,7 +62,47 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }
+}
+
+nav.navbar {
+  background-color: aliceblue;
+}
+
+/* nav.navbar.scrolled {
+  background-color: beige;
+} */
+
+img {
+  width: 50px;
+  height: auto;
+}
+
+.social-icon a img {
+  width: 25px;
+  height: auto;
+}
+
+.navbar-text {
+  display: flex;
+  gap: 20px;
+}
+
+.social-icon {
+  flex-direction: row;
+  display: flex;
+  gap: 10px;
+}
+
+.navbar-text button {
+  border: 1px solid white;
+  background-color: cornsilk;
+  /* transition: 0.3s ease-in-out; */
+}
+
+.navbar-text span {
+  padding: 5px 6px;
 }
