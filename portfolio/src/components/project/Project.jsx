@@ -7,7 +7,7 @@ const Project = () => {
         {
             id: 1,
             title: 'Style Stage',
-            img: "/project1.jpg",
+            img: "./project1.jpg",
             description: 'Design webpage using pure modern CSS solutions.',
             demo: "https://github.com/Jayneyou/CSS-Project1"
         },
@@ -15,21 +15,21 @@ const Project = () => {
         {
             id: 2,
             title: 'Link Checker',
-            img: "/project2.jpg",
+            img: "./project2.jpg",
             description: 'Python program designed for Georgian College OER team to automate URL checking within digital textbooks.',
             demo: "https://github.com/Jayneyou/LinkChecker"
         },
         {
             id: 3,
             title: 'Color Eliminating',
-            img: "/project3.jpg",
+            img: "./project3.jpg",
             description: 'Tinkercad Arduino Game. C++',
             demo: "https://www.tinkercad.com/things/essOriVkbTS-final-project"
         },
         {
             id: 4,
             title: 'Product Website',
-            img: "/project4.jpg",
+            img: "./project4.jpg",
             description: 'SEM1 HTML final project. Created using HTML, CSS, JavaScript',
             demo: "https://github.com/Jayneyou/productwebsite"
         },
