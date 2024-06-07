@@ -1,0 +1,59 @@
+.contact {
+    height: 100vh;
+    margin: auto;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    background-image: url(/public/contact-bg.svg);
+    background-size: cover;
+
+    .text {
+        padding-left: 10%;
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+
+        h3 {
+            font-size: 3em;
+        }
+
+        h4 {
+            font-size: 1.1em;
+        }
+
+        span {
+            font-size: 0.8em;
+        }
+    }
+
+    .form {
+        padding-right: 10%;
+        flex: 1;
+
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+
+        input,
+        textarea {
+            padding: 10px;
+            background-color: transparent;
+            border: 1px solid #D53867;
+            border-radius: 5px;
+        }
+
+        button {
+            padding: 8px 10px;
+            border: none;
+            cursor: pointer;
+            background-color: #C62368;
+
+        }
+    }
+}

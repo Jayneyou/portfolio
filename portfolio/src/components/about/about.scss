@@ -1,0 +1,66 @@
+.container {
+    height: 90vh;
+    background-color: #001220;
+    background-image: url("/public/about-bg.svg");
+    background-size: cover;
+    align-items: center;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+
+    .stars {
+        background-image: url(/public/stars.png);
+        background-size: cover;
+        background-position: bottom;
+        width: 100%;
+        height: 100%;
+        position: absolute;
+        z-index: 0;
+    }
+
+    .about {
+        height: 30vh;
+        width: 50%;
+        margin: auto;
+        align-items: left;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        z-index: 1;
+
+
+        h2 {
+            font-size: 1em;
+            letter-spacing: 6px;
+            text-transform: uppercase;
+        }
+
+        h1 {
+            font-size: 3em;
+        }
+
+        .buttons {
+            padding-top: 1em;
+            display: flex;
+            gap: 15px;
+
+            button {
+                border: none;
+                padding: 5px 8px;
+                border-radius: 10px;
+                cursor: pointer;
+            }
+
+            a {
+                text-decoration: none;
+                font-size: 1em;
+            }
+        }
+
+    }
+
+
+
+}
