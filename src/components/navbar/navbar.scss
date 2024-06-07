@@ -1,0 +1,28 @@
+.navbar {
+    height: 10vh;
+    background-color: #001220;
+    color: white;
+}
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 100%;
+
+    span {
+        font-weight: bold;
+    }
+
+    .social {
+        display: flex;
+        gap: 15px;
+
+        img {
+            width: 30px;
+            height: auto;
+        }
+    }
+}
