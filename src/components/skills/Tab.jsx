@@ -77,19 +77,19 @@ const Tab = () => {
             case 'Tab2':
                 return <div className="content" key="tab2">
                     <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(0)}>
-                        <img src="./tool1.png" alt="HTML" />
+                        <img src="../tool1.png" alt="HTML" />
                     </motion.button>
                     <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(1)}>
-                        <img src="./tool2.png" alt="CSS" />
+                        <img src="../tool2.png" alt="CSS" />
                     </motion.button>
                     <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(2)}>
-                        <img src="./tool3.png" alt="React" />
+                        <img src="../tool3.png" alt="React" />
                     </motion.button>
-                    <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(2)}>
-                        <img src="./tool4.png" alt="React" />
+                    <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(3)}>
+                        <img src="../tool4.png" alt="React" />
                     </motion.button>
-                    <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(2)}>
-                        <img src="./tool5.png" alt="React" />
+                    <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(4)}>
+                        <img src="../tool5.png" alt="React" />
                     </motion.button>
                 </div>;
             case 'Tab3':
