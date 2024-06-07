@@ -62,34 +62,34 @@ const Tab = () => {
                 return (
                     <motion.div className="content" key="tab1"
                         initial="initial" animate="animate">
-                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(0)}><img src="public/icon-1.png" alt="HTML" /></motion.button>
-                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(1)}><img src="public/icon-2.png" alt="CSS" /></motion.button>
-                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(2)}><img src="public/icon-3.png" alt="React" /></motion.button>
-                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(3)}><img src="public/icon-4.png" alt="C#" /></motion.button>
-                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(4)}><img src="public/icon-5.png" alt="C++" /></motion.button>
-                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(5)}><img src="public/icon-6.png" alt="Java" /></motion.button>
-                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(6)}><img src="public/icon-7.png" alt="Python" /></motion.button>
-                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(7)}><img src="public/icon-8.png" alt="MySQL" /></motion.button>
-                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(8)}><img src="public/icon-9.png" alt="PHP" /></motion.button>
-                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(9)}><img src="public/icon-10.png" alt="PHP" /></motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(0)}><img src="./icon-1.png" alt="HTML" /></motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(1)}><img src="./icon-2.png" alt="CSS" /></motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(2)}><img src="./icon-3.png" alt="React" /></motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(3)}><img src="./icon-4.png" alt="C#" /></motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(4)}><img src="./icon-5.png" alt="C++" /></motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(5)}><img src="./icon-6.png" alt="Java" /></motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(6)}><img src="./icon-7.png" alt="Python" /></motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(7)}><img src="./icon-8.png" alt="MySQL" /></motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(8)}><img src="./icon-9.png" alt="PHP" /></motion.button>
+                        <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(9)}><img src="./icon-10.png" alt="PHP" /></motion.button>
                     </motion.div>
                 );
             case 'Tab2':
                 return <div className="content" key="tab2">
                     <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(0)}>
-                        <img src="public/tool1.png" alt="HTML" />
+                        <img src="./tool1.png" alt="HTML" />
                     </motion.button>
                     <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(1)}>
-                        <img src="public/tool2.png" alt="CSS" />
+                        <img src="./tool2.png" alt="CSS" />
                     </motion.button>
                     <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(2)}>
-                        <img src="public/tool3.png" alt="React" />
+                        <img src="./tool3.png" alt="React" />
                     </motion.button>
                     <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(2)}>
-                        <img src="public/tool4.png" alt="React" />
+                        <img src="./tool4.png" alt="React" />
                     </motion.button>
                     <motion.button whileHover={{ scale: 1.1 }} variants={buttonVariants(2)}>
-                        <img src="public/tool5.png" alt="React" />
+                        <img src="./tool5.png" alt="React" />
                     </motion.button>
                 </div>;
             case 'Tab3':
