@@ -1,8 +1,9 @@
+@import "../../app.scss";
+
 .tabs-container {
     display: flex;
     flex-direction: column;
     align-items: center;
-
 
     .tabs {
         display: flex;
@@ -16,6 +17,11 @@
             border-radius: 5px;
             cursor: pointer;
 
+            @include mobile {
+                font-size: 0.7em;
+                padding: 5px 8px;
+            }
+
             &:hover {
                 background-color: #FA7268;
             }
@@ -27,6 +33,10 @@
         padding: 20px;
         width: 60%;
         height: 80%;
+        @include mobile{
+            margin-top: 15px;
+            padding: 10px;
+        }
 
         .content {
             align-items: center;
@@ -38,12 +48,18 @@
             justify-content: center;
             gap: 10px;
 
+            @include mobile{
+                width: 100%;
+            }
             button {
 
                 border: 2px solid #FA7268;
 
                 img {
                     width: 3em;
+                    @include mobile{
+                        width: 1.5em;
+                    }
                 }
             }
 
@@ -59,13 +75,22 @@
             display: flex;
             justify-content: center;
             gap: 10px;
+            @include mobile{
+                width: 100%;
+            }
 
             button {
-                border: 2px solid #FA7268;
+                border: 3px solid #FA7268;
                 padding: 6px 8px;
                 font-size: 0.8em;
                 color: white;
-                background-color: transparent;
+                background-color: #FBE2E5;
+                color: black;
+                @include mobile{
+                    font-size: 0.5em;
+                    padding: 3px 5px;
+                    border: 2px solid #FA7268;
+                }
             }
         }
     }
@@ -73,9 +98,12 @@
     .text {
         p {
             margin-top: 20px;
-
             font-size: 1em;
             color: white;
+            @include mobile{
+                font-size: 0.6em;
+                margin-top: 10px;
+            }
         }
     }
 

@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .contact {
     height: 100vh;
     margin: auto;
@@ -6,8 +8,12 @@
     align-items: center;
     justify-content: center;
     gap: 100px;
-    background-image: url(/public/contact-bg.svg);
+    background-image: url(/public/stars.png);
     background-size: cover;
+
+    @include mobile {
+        height: 35vh;
+    }
 
     .text {
         padding-left: 10%;
@@ -16,16 +22,32 @@
         flex-direction: column;
         gap: 20px;
 
+        @include mobile {
+            gap: 10px;
+        }
+
         h3 {
             font-size: 3em;
+
+            @include mobile {
+                font-size: 1.3em;
+            }
         }
 
         h4 {
             font-size: 1.1em;
+
+            @include mobile {
+                font-size: 0.6em;
+            }
         }
 
         span {
             font-size: 0.8em;
+
+            @include mobile {
+                font-size: 0.5em;
+            }
         }
     }
 
@@ -37,6 +59,10 @@
             display: flex;
             flex-direction: column;
             gap: 20px;
+
+            @include mobile {
+                gap: 10px;
+            }
         }
 
 
@@ -46,6 +72,10 @@
             background-color: transparent;
             border: 1px solid #D53867;
             border-radius: 5px;
+            @include mobile{
+                padding: 5px;
+                font-size: 0.5em;
+            }
         }
 
         button {
@@ -53,7 +83,10 @@
             border: none;
             cursor: pointer;
             background-color: #C62368;
-
+            @include mobile{
+                font-size: 0.5em;
+                padding: 4px 5px;
+            }
         }
     }
 }

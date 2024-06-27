@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .skills {
     background-color: #001220;
     position: relative;
@@ -12,17 +14,28 @@
     background-image: url(/public/stars.png);
     background-size: cover;
 
+    @include mobile {
+        height: 35vh;
+    }
+
     h3 {
         justify-content: center;
         align-items: center;
         color: white;
         font-size: 2.5em;
         margin-bottom: 50px;
+
+        @include mobile {
+            font-size: 1.2em;
+            margin-bottom: 20px;
+        }
     }
 
     .tabs-container {
         height: 60%;
-
         width: 100%;
+        @include mobile{
+            height: 20vh;
+        }
     }
 }

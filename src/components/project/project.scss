@@ -1,3 +1,5 @@
+@import "../../app.scss";
+
 .project {
     height: 100vh;
     background-image: url(/public/project-bg.svg);
@@ -7,14 +9,23 @@
     color: white;
     display: flex;
     flex-direction: column;
+    @include mobile{
+        height: 35vh;
+    }
 
 
     .text {
         width: 100%;
         margin: 60px 0 50px 0;
+        @include mobile{
+            margin: 28px 0 15px 0;
+        }
 
         h3 {
             font-size: 2.5em;
+            @include mobile{
+                font-size: 1.2em;
+            }
         }
     }
 
@@ -24,6 +35,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        @include mobile{
+            margin-top: 15px;
+            height: 20vh;
+        }
 
         .arrow {
             height: 50px;
@@ -35,6 +50,11 @@
             font-size: 2em;
             cursor: pointer;
             color: white;
+            @include mobile{
+                height: 25px;
+                width: 25px;
+                font-size: 0.6em;
+            }
         }
 
         .project-container {
@@ -44,7 +64,9 @@
             overflow: hidden;
             text-align: left;
             justify-content: center;
-
+            @include mobile{
+                width: 80%;
+            }
 
             .project-item {
                 justify-content: center;
@@ -55,24 +77,33 @@
                 background-color: #FFDFDF;
                 border-radius: 10px;
                 padding: 25px;
+                @include mobile{
+                    width: 40%;
+                    padding: 17px;
+                }
 
                 h4 {
                     color: black;
                     margin-bottom: 10px;
                     text-align: center;
                     font-size: 1.3em;
+                    @include mobile{
+                        font-size: 0.6em;
+                        margin-bottom: 5px;
+                    }
                 }
 
                 p {
                     font-size: 1em;
                     color: gray;
+                    @include mobile{
+                        font-size: 0.5em;
+                    }
                 }
 
                 img {
                     width: 100%;
                 }
-
-
 
                 button {
                     width: 30%;
@@ -80,11 +111,16 @@
                     border: none;
                     padding: 3px 5px;
                     border-radius: 5px;
+                    @include mobile{
+                        font-size: 0.5em;
+                        width: 60%;
+                    }
 
                     a {
                         color: gray;
                         font-size: 1em;
                         text-decoration: none;
+                      
                     }
 
 
