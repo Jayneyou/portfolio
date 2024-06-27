@@ -1,4 +1,4 @@
 # Personal Portfolio
--- Created using React + Vite
+-- React, Vite, Framer-Motion
 
 https://jayneyou.github.io/portfolio/
