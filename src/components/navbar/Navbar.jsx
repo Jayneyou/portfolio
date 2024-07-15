@@ -15,8 +15,8 @@ const Navbar = () => {
                     transition={{ duration: 0.5 }}>
                     Jayne.dev</motion.span>
                 <div className="social">
-                    <a href="https://github.com/Jayneyou?tab=repositories"><img src="./github-icon.png" alt="GitHub" /></a>
-                    <a href="https://www.linkedin.com/in/jayne-you-346b24291/"><img src="./linkedin-icon.png" alt="LinkedIn" /></a>
+                    <a href="https://github.com/Jayneyou?tab=repositories"><img src="./github-icon2.png" alt="GitHub" /></a>
+                    <a href="https://www.linkedin.com/in/jayne-you-346b24291/"><img src="./linkedin-icon2.png" alt="LinkedIn" /></a>
                 </div>
             </div>
         </div>

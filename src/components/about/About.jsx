@@ -5,18 +5,9 @@ import { TypeAnimation } from 'react-type-animation';
 import './about.scss';
 
 const About = () => {
-
-    const ref = useRef();
-    const { scrollYProgress } = useScroll({
-        target: ref,
-        offset: ["start 10vh", "end start"]
-    })
-    const yBg = useTransform(scrollYProgress, [0, 1], ["0%", "100%"])
-
     return (
-        <motion.div className="container" ref={ref}>
-            <motion.div className='about'
-            >
+        <motion.div className="container">
+            <motion.div className='about'>
                 <motion.h2 >Web/Software Developer</motion.h2>
                 <motion.h1>Hi!
                     <TypeAnimation
@@ -35,8 +26,7 @@ const About = () => {
                     <motion.button ><a href="#Contact">Contact</a></motion.button>
                 </motion.div>
             </motion.div>
-            <motion.div className="stars" style={{ x: yBg }}>
-            </motion.div>
+            <motion.div className="stars"></motion.div>
         </motion.div>
 
     )
